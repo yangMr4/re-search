@@ -1,0 +1,21 @@
+# Build
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Secrets —— DashScope Key 等永远不进库
+.env
+.env.*
+application-local.yml
+
+# Logs
+logs/
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
